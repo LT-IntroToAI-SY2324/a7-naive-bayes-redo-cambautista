@@ -173,7 +173,7 @@ class BayesClassifier:
 
         # determine whether positive or negative was more probable (i.e. which one was
         # larger)
-        if pos_prob > neg_prob:
+        if pos_prob>neg_prob:
             return "positive"
         else: 
             return "negative"
@@ -264,7 +264,6 @@ class BayesClassifier:
                 freqs[word] += 1
             else: 
                 freqs[word] = 1
-
 
 
 if __name__ == "__main__":
