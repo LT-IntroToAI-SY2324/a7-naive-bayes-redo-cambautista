@@ -239,7 +239,7 @@ class BayesClassifier:
 
 if __name__ == "__main__":
     # uncomment the below lines once you've implemented `train` & `classify`
-     b = BayesClassifier()
+    b = BayesClassifier()
     # a_list_of_words = ["I", "really", "like", "this", "movie", ".", "I", "hope", \
     #                    "you", "like", "it", "too"]
     # a_dictionary = {}
